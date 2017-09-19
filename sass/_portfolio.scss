@@ -1,0 +1,301 @@
+main{
+	margin-top: 30px;
+	.contenedor{
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+.texto-img{
+	color: white;
+	position: absolute;
+	bottom: 37%;
+	left: 10%;
+
+	.titulo{
+		font-family: $titulo;
+		font-weight: $bold;
+	}
+
+	.secundario{
+		font-family: $secundario;
+	}
+}
+
+.texto-img2{
+	color: $color_fondo;
+	position: absolute;
+	bottom: 35%;
+	left: 35%;
+	letter-spacing: 2px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	h1{
+		font-family: $titulo;
+		font-weight: $bold;
+		font-size: 50px;
+		padding: 20px 0;
+	}
+
+	h2{
+		font-family: $secundario;
+		font-size: 20px;
+	}
+}
+
+
+.principal{
+	flex: 4;
+	.zero{
+		position: relative;
+		img{
+			width: 100%;
+			opacity: 1;
+			-webkit-transition: .3s ease-in-out;
+			transition: .3s ease-in-out;
+
+			&:hover{
+				opacity: .8;
+			}
+		}
+		.texto-img{
+			h1{
+				font-size: 60px;
+				padding: 20px 0;
+			}
+
+			h2{
+				font-size: 20px;
+			}
+		}
+	}
+
+	.one{
+		display: flex;
+		justify-content: space-between;
+		padding: 30px 0;
+		margin: auto;
+
+		article{
+			position: relative;
+			flex: 1;
+				
+			img{
+				width: 100%;
+				opacity: 1;
+				-webkit-transition: .3s ease-in-out;
+				transition: .3s ease-in-out;
+
+				&:hover{
+					opacity: .8;
+				}
+			}
+
+			.texto-img{
+				h1{
+					font-size: 40px;
+					padding: 20px 0;		
+				}
+
+				h2{
+					font-size: 19px;
+				}
+			}
+		}
+
+		.a1{
+			padding-right: 20px;
+		}
+
+		.a2{
+			padding-left: 20px;
+		}
+	}
+
+	.producto{
+		h2{
+			font-family: $secundario;
+			font-size: 18px;
+			text-align: center;
+			text-transform: uppercase;
+			margin: 30px 0;
+			color: $color_separador;
+			letter-spacing: 2px;
+		}
+
+		.galeria{
+			display: flex;
+			justify-content: space-between;
+			margin: 10px 0;
+
+			article{
+				flex: 1;
+				text-align: center;
+				h4{
+					font-family: $secundario;
+					color: $color_secundario;
+					font-weight: $bold;
+					text-transform: uppercase;
+					letter-spacing: 1.5px;
+				}
+				h3{
+					font-family: $titulo;
+					font-weight: $bold;
+					font-size: 20px;
+				}
+
+				p{
+					font-family: $secundario;
+					color: $color_separador;
+				}
+
+				h4, h3, p{
+					margin: 20px 0;
+				}
+
+				img{
+					width: 100%;
+				}
+			}
+		}
+	}
+
+	.welcome{
+		padding: 30px;
+		h2{
+			font-family: $secundario;
+			font-weight: $bold;
+			font-size: 25px;
+		}
+
+		article{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			div{
+				flex: 1;
+				img{
+					width: 100%;
+				}
+			}
+
+			p{
+				flex: 1;
+				font-family: $secundario;
+				font-size: 18px;
+				color: gray;
+				line-height: 150%;
+			}
+		}
+	}
+	.publi{
+		padding: 10px;
+		position: relative;
+		img{
+			width: 100%;
+		}
+	}
+	.news{
+		h2{
+			font-family: $secundario;
+			font-size: 18px;
+			text-align: center;
+			text-transform: uppercase;
+			margin: 30px 0;
+			color: $color_separador;
+			letter-spacing: 2px;
+		}
+		.three{
+			display: flex;
+			justify-content: space-between;
+			padding: 30px 0;
+			margin: auto;
+
+			article{
+				position: relative;
+				flex: 1;
+					
+				img{
+					width: 90%;
+					opacity: 1;
+					-webkit-transition: .3s ease-in-out;
+					transition: .3s ease-in-out;
+
+					&:hover{
+						opacity: .5;
+					}
+				}
+
+				h3{
+					font-family: $titulo;
+					font-weight: $bold;
+					font-size: 22px;
+					margin-bottom: 15px;
+				}
+
+				p{
+					letter-spacing: 1px;
+					font-family: $secundario;
+					color: $color_separador;
+					font-size: 15px;
+					max-width: 300px;
+					line-height: 150%;
+					margin-top: 20px; 
+				}
+
+				span{
+					font-family: $secundario;
+					letter-spacing: 2px;
+					position: relative;
+					top: 10px;
+
+					a{
+						text-decoration: none;
+						color: $color_secundario;
+					}
+				}
+			}
+		}
+	}
+}
+
+aside{
+	flex: 1;
+	h2{
+		font-family: $secundario;
+		color: $color_separador;
+		font-size: 18px;
+		margin-bottom: 6px;
+		letter-spacing: 1px;
+	}
+
+	span{
+		font-size: 12px;
+		margin-left: 5px; 
+	}
+	h3{
+		font-family: $secundario;
+		font-size: 15px;
+		font-weight: $bold;
+		color: $color_secundario;
+		padding: 10px 0;
+	}
+
+	ul{
+		font-family: $secundario;
+		font-size: 17px;
+		letter-spacing: -1px;
+
+		li{
+			padding: 6px 0;
+			margin-left: 20px;
+
+			a{
+				text-decoration: none;
+				color: black;
+			}
+		}
+	}
+}

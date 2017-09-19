@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,700|Karla:400,700');
+@import url('http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
+@import "variables";
+@import "main";
+@import "portfolio";
+@import "footer";
+
+.contenedor{
+	max-width: 1200px;
+	margin: auto;
+}
+
+@media (max-width: 750px){
+	aside{
+		display: none;
+	}
+
+	.menu-inicial{
+		.carrito{
+			display: none;
+		}
+
+		.search{
+			display: none;
+		}
+
+		.logo{
+			img{
+				position: relative;
+				left: 90%;
+			}
+		}
+	}
+
+	nav{
+		.mobile{
+			display: inline-block;
+			position: relative;
+			left: 25%;
+		}
+
+		.lista{
+			display: none;
+		}
+	}
+}

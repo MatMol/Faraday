@@ -1,0 +1,80 @@
+.menu-inicial{
+	padding: 20px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	.search{
+		display: flex;
+
+		a{
+			font-size: 23px;
+			color: $color-primario;
+			}
+		}
+
+		input{
+			margin-left: 8px;
+			width: 70px;
+			height: 20px;
+			border: none;
+		}
+
+	.carrito{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		font-size: 17px;
+		font-family: $secundario;
+		font-weight: $bold;
+
+		*{
+			margin: 0 5px;
+		}
+
+		button{
+			background: none;
+			border: 1px solid;
+			font-family: $secundario;
+			font-weight: $bold;
+		}
+	}
+}
+.logo{
+	width: 150px;
+
+	img{
+		width: 100%;
+	}
+}
+
+nav{
+	.contenedor{
+		border-bottom: 1px solid grey;
+	}
+
+	.mobile{
+		font-size: 40px;
+		display: none;
+	}
+
+	ul{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		li{
+			margin: 20px;
+			a{
+				text-decoration: none;
+				font-family: $secundario;
+				font-weight: $bold;
+				color: $color-primario;
+				
+				&:hover{
+					color: $color_hover;
+				}
+			}
+		}
+	}
+}
