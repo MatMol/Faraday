@@ -97,7 +97,8 @@ main {
       width: 100%;
       opacity: 1;
       -webkit-transition: .3s ease-in-out;
-      transition: .3s ease-in-out; }
+      transition: .3s ease-in-out;
+      filter: brightness(75%); }
       .principal .zero img:hover {
         opacity: .8; }
     .principal .zero .texto-img h1 {
@@ -117,7 +118,8 @@ main {
         width: 100%;
         opacity: 1;
         -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out; }
+        transition: .3s ease-in-out; 
+        filter: brightness(75%); }
         .principal .one article img:hover {
           opacity: .8; }
       .principal .one article .texto-img h1 {
