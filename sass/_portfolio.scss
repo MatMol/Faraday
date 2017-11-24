@@ -54,6 +54,7 @@ main{
 			opacity: 1;
 			-webkit-transition: .3s ease-in-out;
 			transition: .3s ease-in-out;
+			filter: brightness(75%);
 
 			&:hover{
 				opacity: .8;
@@ -86,6 +87,7 @@ main{
 				opacity: 1;
 				-webkit-transition: .3s ease-in-out;
 				transition: .3s ease-in-out;
+				filter: brightness(75%);
 
 				&:hover{
 					opacity: .8;
